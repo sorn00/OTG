@@ -1,5 +1,5 @@
 {
-    "buildCommand": "cd otg-fitness-webster && npm run build",
+    "buildCommand": "cd otg-fitness-webster && npm install && npm run build",
     "outputDirectory": "otg-fitness-webster/build",
     "rewrites": [
       { "source": "/(.*)", "destination": "/index.html" }
